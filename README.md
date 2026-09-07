@@ -4,6 +4,9 @@ Saffron & Smoke is a restaurant website I built around a Rajasthani-inspired din
 
 I wanted the design to feel warm, colourful and a little royal without making it look like a typical "luxury restaurant" template. The idea was to mix traditional Indian details with a clean, modern layout.
 
+## Live website
+https://saffron-and-smoke.onrender.com/
+
 ## What I built
 
 - Responsive restaurant website
