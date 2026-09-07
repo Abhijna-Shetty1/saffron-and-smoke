@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Saffron & Smoke | Contemporary Rajasthani Kitchen</title>
+
+    <meta
+        name="description"
+        content="Saffron & Smoke — a contemporary Rajasthani dining experience inspired by royal kitchens, slow fires and bold spices."
+    >
+
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header class="site-header">
+        <div class="nav-container container">
+
+            <a href="#" class="brand">
+                <span class="brand-mark">S&amp;S</span>
+
+                <span class="brand-text">
+                    <strong>Saffron &amp; Smoke</strong>
+                    <small>Rajasthani Kitchen</small>
+                </span>
+            </a>
+
+            <nav class="main-nav" aria-label="Main navigation">
+                <a href="#story">Our Story</a>
+                <a href="#menu">Menu</a>
+                <a href="#experience">Experience</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#reservation">Reservations</a>
+            </nav>
+
+           <a href="#location" class="nav-reserve">
+    Find Us <span>↗</span>
+</a>
+        </div>
+    </header>
+
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <main>
+
+        <section class="hero" aria-labelledby="hero-title">
+
+            <div class="hero-pattern" aria-hidden="true"></div>
+
+            <div class="hero-arch-decoration" aria-hidden="true">
+                <span></span>
+            </div>
+
+            <div class="hero-content container">
+
+                <div class="hero-copy">
+
+                    <p class="eyebrow">
+                        A Contemporary Rajasthani Kitchen
+                    </p>
+
+                    <h1 id="hero-title">
+                        Saffron
+                        <span>&amp; Smoke</span>
+                    </h1>
+
+                    <p class="hero-tagline">
+                        From the royal courtyards of Rajasthan
+                        to the modern table — slow fires,
+                        bold spices, and stories worth lingering over.
+                    </p>
+
+                    <div class="hero-actions">
+
+                        <a href="#menu" class="button button-primary">
+                            Explore the Menu
+                        </a>
+
+                        <a href="#reservation" class="button button-text">
+                            Reserve a Table
+                            <span>↗</span>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-visual">
+
+                    <div class="hero-image-frame">
+
+                        <div class="hero-image-border">
+
+                            <img
+                                class="hero-image"
+                                src="https://images.pexels.com/photos/34669530/pexels-photo-34669530.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                                alt="Traditional Rajasthani haveli architecture in Jaipur"
+                            >
+
+                        </div>
+
+                        <div class="hero-image-label">
+                            <span>01</span>
+                            <span>Jaipur · Rajasthan</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="hero-stamp" aria-hidden="true">
+                        <span>RAJASTHAN</span>
+                        <strong>✦</strong>
+                        <span>EST. 2026</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-bottom container">
+
+                <span>12:00 — 23:00</span>
+
+                <span>Tuesday — Sunday</span>
+
+                <span>Bengaluru · India</span>
+
+                <span class="scroll-text">
+                    Scroll to discover
+                    <b>↓</b>
+                </span>
+
+            </div>
+
+        </section>
+
+        <!-- =========================
+             OUR STORY
+        ========================== -->
+
+        <section class="story" id="story" aria-labelledby="story-title">
+
+            <div class="story-inner container">
+
+                <div class="story-image-wrap">
+
+                    <div class="story-number">
+                        01
+                    </div>
+
+                    <div class="story-image">
+
+                        <img
+src="{{ url_for('static', filename='assets/images/story/story-haveli.jpg') }}"
+                        alt="Traditional Rajasthani haveli courtyard"
+                        >
+
+                    </div>
+
+                    <p class="story-caption">
+                        Courtyards, carved stone &amp; slow afternoons
+                    </p>
+
+                </div>
+
+
+                <div class="story-copy">
+
+                    <p class="section-label">
+                        The Story
+                    </p>
+
+                    <h2 id="story-title">
+                        A taste of
+                        <em>Rajasthan.</em>
+                    </h2>
+
+                    <p class="story-intro">
+                        Saffron &amp; Smoke is our interpretation of
+                        Rajasthan beyond the postcard — its kitchens,
+                        courtyards, fires and generous tables.
+                    </p>
+
+                    <p>
+                        We bring the warmth of traditional Rajasthani
+                        cooking into a contemporary dining room, keeping
+                        the soul of the cuisine while giving familiar
+                        flavours room to evolve.
+                    </p>
+
+                    <div class="story-detail">
+
+                        <span>Slow fires</span>
+                        <span>Bold spices</span>
+                        <span>Old recipes</span>
+
+                    </div>
+
+                    <a href="#menu" class="story-link">
+                        Discover our philosophy
+                        <span>↗</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+<!-- =========================
+     ROYAL TABLE
+========================= -->
+
+<section class="royal-table" id="menu" aria-labelledby="menu-title">
+
+    <div class="container">
+
+        <div class="menu-heading">
+            <div>
+                <p class="section-label">From the Kitchen</p>
+
+                <h2 id="menu-title">
+                    The Royal <em>Table</em>
+                </h2>
+            </div>
+
+            <p class="menu-intro">
+                Rajasthani flavours shaped by fire,
+                spice and generations of generous cooking.
+            </p>
+        </div>
+
+
+        <!-- MAHARAJ THALI -->
+
+        <div class="menu-feature">
+
+            <div class="menu-feature-copy">
+
+                <p class="menu-number">01 — The Signature</p>
+
+                <h3>
+                    Rajasthan
+                    <em>Maharaj Thali</em>
+                </h3>
+
+                <p>
+                    A generous royal spread inspired by the
+                    kitchens of Rajasthan — fragrant dals,
+                    smoky baati, seasonal vegetables, breads,
+                    sweets and accompaniments.
+                </p>
+
+                <div class="dish-meta">
+                    <span>Vegetarian</span>
+                    <span>For one</span>
+                    <strong>₹895</strong>
+                </div>
+
+            </div>
+
+            <div class="menu-feature-image">
+                <img
+                    src="{{ url_for('static', filename='assets/images/menu/thali-main.jpg') }}"
+                    alt="Rajasthan Maharaj Thali"
+                >
+            </div>
+
+        </div>
+
+
+  <!-- MENU FILTERS -->
+
+<div class="menu-filters" role="tablist" aria-label="Menu categories">
+
+    <button class="menu-filter active" type="button" data-category="veg">
+        Veg
+    </button>
+
+    <button class="menu-filter" type="button" data-category="nonveg">
+        Non-Veg
+    </button>
+
+    <button class="menu-filter" type="button" data-category="drinks">
+        Drinks
+    </button>
+
+    <button class="menu-filter" type="button" data-category="desserts">
+        Desserts
+    </button>
+
+</div>
+
+
+<!-- VEG -->
+
+<div class="menu-category active" data-menu-category="veg">
+
+    <article class="menu-card">
+        <div class="menu-card-image">
+            <img src="{{ url_for('static', filename='assets/images/menu/gatte.jpg') }}" alt="Gatte Ki Sabzi">
+        </div>
+        <div class="menu-card-info">
+            <h3>Gatte Ki Sabzi</h3>
+            <span>₹345</span>
+        </div>
+    </article>
+
+    <article class="menu-card">
+        <div class="menu-card-image">
+            <img src="{{ url_for('static', filename='assets/images/menu/panchmel-dal.jpg') }}" alt="Panchmel Dal">
+        </div>
+        <div class="menu-card-info">
+            <h3>Panchmel Dal</h3>
+            <span>₹295</span>
+        </div>
+    </article>
+
+    <article class="menu-card">
+        <div class="menu-card-image">
+            <img src="{{ url_for('static', filename='assets/images/menu/ker-sangri.jpg') }}" alt="Ker Sangri">
+        </div>
+        <div class="menu-card-info">
+            <h3>Ker Sangri</h3>
+            <span>₹375</span>
+        </div>
+    </article>
+
+    <article class="menu-card">
+        <div class="menu-card-image">
+            <img src="{{ url_for('static', filename='assets/images/menu/bharwan-mirchi.jpg') }}" alt="Bharwan Mirchi">
+        </div>
+        <div class="menu-card-info">
+            <h3>Bharwan Mirchi</h3>
+            <span>₹325</span>
+        </div>
+    </article>
+
+</div>
+
+
+<!-- NON-VEG -->
+
+<div class="menu-category" data-menu-category="nonveg">
+
+    <article class="menu-card">
+        <div class="menu-card-image">
+            <img src="{{ url_for('static', filename='assets/images/menu/laal-maas.jpg') }}" alt="Laal Maas">
+        </div>
+        <div class="menu-card-info">
+            <h3>Laal Maas</h3>
+            <span>₹595</span>
+        </div>
+    </article>
+
+    <article class="menu-card">
+        <div class="menu-card-image">
+            <img src="{{ url_for('static', filename='assets/images/menu/safed-maas.jpg') }}" alt="Safed Maas">
+        </div>
+        <div class="menu-card-info">
+            <h3>Safed Maas</h3>
+            <span>₹625</span>
+        </div>
+    </article>
+
+    <article class="menu-card">
+        <div class="menu-card-image">
+            <img src="{{ url_for('static', filename='assets/images/menu/jungli-maas.jpg') }}" alt="Jungli Maas">
+        </div>
+        <div class="menu-card-info">
+            <h3>Jungli Maas</h3>
+            <span>₹645</span>
+        </div>
+    </article>
+
+    <article class="menu-card">
+        <div class="menu-card-image">
+            <img src="{{ url_for('static', filename='assets/images/menu/angaarey-seekh.jpg') }}" alt="Angaarey Seekh">
+        </div>
+        <div class="menu-card-info">
+            <h3>Angaarey Seekh</h3>
+            <span>₹545</span>
+        </div>
+    </article>
+
+</div>
+
+
+<!-- DRINKS -->
+
+<div class="menu-category" data-menu-category="drinks">
+
+    <article class="menu-card">
+        <div class="menu-card-image">
+            <img src="{{ url_for('static', filename='assets/images/menu/kesar-lassi.jpg') }}" alt="Kesar Lassi">
+        </div>
+        <div class="menu-card-info">
+            <h3>Kesar Lassi</h3>
+            <span>₹195</span>
+        </div>
+    </article>
+
+    <article class="menu-card">
+        <div class="menu-card-image">
+            <img src="{{ url_for('static', filename='assets/images/menu/royal-chaas.jpg') }}" alt="Royal Chaas">
+        </div>
+        <div class="menu-card-info">
+            <h3>Royal Chaas</h3>
+            <span>₹145</span>
+        </div>
+    </article>
+
+    <article class="menu-card">
+        <div class="menu-card-image">
+            <img src="{{ url_for('static', filename='assets/images/menu/gulab-sharbat.jpg') }}" alt="Gulab Sharbat">
+        </div>
+        <div class="menu-card-info">
+            <h3>Gulab Sharbat</h3>
+            <span>₹175</span>
+        </div>
+    </article>
+
+</div>
+
+
+<!-- DESSERTS -->
+
+<div class="menu-category" data-menu-category="desserts">
+
+    <article class="menu-card">
+        <div class="menu-card-image">
+            <img src="{{ url_for('static', filename='assets/images/menu/ghewar.jpg') }}" alt="Ghewar">
+        </div>
+        <div class="menu-card-info">
+            <h3>Ghewar</h3>
+            <span>₹245</span>
+        </div>
+    </article>
+
+    <article class="menu-card">
+        <div class="menu-card-image">
+            <img src="{{ url_for('static', filename='assets/images/menu/mawa-kachori.jpg') }}" alt="Mawa Kachori">
+        </div>
+        <div class="menu-card-info">
+            <h3>Mawa Kachori</h3>
+            <span>₹225</span>
+        </div>
+    </article>
+
+</div>
+
+
+<!-- EXTRA THALI IMAGES -->
+
+<div class="menu-thali-gallery">
+
+    <img
+        src="{{ url_for('static', filename='assets/images/menu/maharaj2.jpg') }}"
+        alt="Maharaj Thali"
+    >
+
+    <img
+        src="{{ url_for('static', filename='assets/images/menu/m3.jpg') }}"
+        alt="Royal Rajasthani thali"
+    >
+
+    <img
+        src="{{ url_for('static', filename='assets/images/menu/m4.jpg') }}"
+        alt="Royal Rajasthani dining"
+    >
+
+</div>
+
+
+        <!-- =========================
+             EXPERIENCE
+        ========================== -->
+
+        <section class="experience" id="experience" aria-labelledby="experience-title">
+
+            <div class="container experience-inner">
+
+                <div class="experience-copy">
+
+                    <p class="section-label">
+                        Beyond the Plate
+                    </p>
+
+                    <h2 id="experience-title">
+                        An evening worth
+                        <em>remembering.</em>
+                    </h2>
+
+                    <p>
+                        Step into a dining room inspired by old
+                        Rajasthani havelis — intimate corners,
+                        warm light, hand-finished details and
+                        the gentle rhythm of a long dinner.
+                    </p>
+
+                </div>
+
+
+                <div class="experience-list">
+
+                    <div class="experience-item">
+                        <span>01</span>
+                        <div>
+                            <h3>The Courtyard</h3>
+                            <p>
+                                An open-air setting for slow evenings
+                                beneath the Jaipur-inspired arches.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="experience-item">
+                        <span>02</span>
+                        <div>
+                            <h3>The Royal Table</h3>
+                            <p>
+                                A generous shared feast designed
+                                around the traditions of Rajasthan.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="experience-item">
+                        <span>03</span>
+                        <div>
+                            <h3>Private Dining</h3>
+                            <p>
+                                An intimate setting for celebrations,
+                                gatherings and unforgettable dinners.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             GALLERY
+        ========================== -->
+
+        <section class="gallery" id="gallery" aria-labelledby="gallery-title">
+
+            <div class="container">
+
+                <div class="gallery-heading">
+
+                    <div>
+                        <p class="section-label">
+                            A Glimpse Inside
+                        </p>
+
+                        <h2 id="gallery-title">
+                            The mood of
+                            <em>Rajasthan.</em>
+                        </h2>
+                    </div>
+
+                    <p>
+                        Sun-washed courtyards, carved details,
+                        colourful textiles and tables made for
+                        lingering.
+                    </p>
+
+                </div>
+
+
+                <div class="gallery-grid">
+
+                    <figure class="gallery-item gallery-large">
+                        <img
+                            src="assets/images/gallery/gallery-haveli.jpg"
+                            alt="Beautiful Indian dining table"
+                        >
+                    </figure>
+
+                    <figure class="gallery-item">
+                        <img
+                            src="assets/images/gallery/gh2.jpg"
+                          alt="Warm architectural courtyard"
+                        >
+                    </figure>
+
+                    <figure class="gallery-item">
+                        <img
+                            src="assets/images/gallery/gh3.jpg"
+                            alt="Indian architectural details"
+                        >
+                    </figure>
+
+                    <figure class="gallery-item">
+                        <img
+                            src="assets/images/gallery/gh4.jpg"
+                            alt="Elegant restaurant interior"
+                        >
+                    </figure>
+
+                    <figure class="gallery-item gallery-wide">
+                        <img
+                            src="assets/images/gallery/gh5.jpg"
+                            alt="Indian food prepared for a shared table"
+                        >
+                    </figure>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CHEF / PHILOSOPHY
+        ========================== -->
+
+        <section class="chef" aria-labelledby="chef-title">
+
+            <div class="container chef-inner">
+
+                <div class="chef-image">
+
+                    <img
+                        src="assets/images/story/star-chef.jpg"
+                        alt="Chef preparing food in a kitchen"
+                    >
+
+                    <span class="chef-image-label">
+                        The Kitchen
+                    </span>
+
+                </div>
+
+
+                <div class="chef-copy">
+
+                    <p class="section-label">
+                        Our Philosophy
+                    </p>
+
+                    <h2 id="chef-title">
+                        Fire is our
+                        <em>first ingredient.</em>
+                    </h2>
+
+                    <p class="chef-intro">
+                        We believe Rajasthani food doesn't need
+                        to be reinvented. It needs to be respected,
+                        understood and given room to speak.
+                    </p>
+
+                    <p>
+                        Our kitchen works with slow cooking,
+                        seasonal produce, hand-ground spices and
+                        the unmistakable warmth of food cooked
+                        over fire.
+                    </p>
+
+                    <div class="chef-signature">
+                        <span>With warmth,</span>
+                        <strong>Saffron &amp; Smoke</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             RESERVATION
+        ========================== -->
+
+        <section class="reservation" id="reservation" aria-labelledby="reservation-title">
+
+            <div class="container reservation-inner">
+
+                <div class="reservation-copy">
+
+                    <p class="section-label">
+                        Your Table Awaits
+                    </p>
+
+                    <h2 id="reservation-title">
+                        Come for the
+                        <em>flavours.</em>
+                        Stay for the story.
+                    </h2>
+
+                    <p>
+                        Join us for an evening of slow fires,
+                        generous plates and Rajasthani hospitality.
+                    </p>
+
+                </div>
+
+
+                <form class="reservation-form" id="reservation-form">
+
+                    <div class="form-row">
+
+                        <label>
+                            Name
+                            <input
+                                type="text"
+                                name="name"
+                                placeholder="Your name"
+                                required
+                            >
+                        </label>
+
+                        <label>
+                            Guests
+                            <select name="guests">
+                                <option>2 Guests</option>
+                                <option>3 Guests</option>
+                                <option>4 Guests</option>
+                                <option>5 Guests</option>
+                                <option>6+ Guests</option>
+                            </select>
+                        </label>
+
+                    </div>
+
+
+                    <div class="form-row">
+
+                        <label>
+                            Date
+                            <input
+                                type="date"
+                                name="date"
+                                id="reservation-date"
+                                required
+                            >
+                        </label>
+
+                        <label>
+                            Time
+                            <select name="time">
+                                <option>12:30 PM</option>
+                                <option>1:00 PM</option>
+                                <option>7:00 PM</option>
+                                <option>7:30 PM</option>
+                                <option>8:00 PM</option>
+                                <option>8:30 PM</option>
+                                <option>9:00 PM</option>
+                            </select>
+                        </label>
+
+                    </div>
+
+
+                    <button type="submit" class="button button-primary">
+                        Request a Table
+                        <span>↗</span>
+                    </button>
+
+                    <p class="form-note">
+                        Reservations are subject to availability.
+                    </p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             LOCATION
+        ========================== -->
+
+<section class="location" id="location" aria-labelledby="location-title">
+            <div class="container location-inner">
+
+                <div>
+
+                    <p class="section-label">
+                        Find Us
+                    </p>
+
+                    <h2 id="location-title">
+                        A little piece of
+                        <em>Rajasthan.</em>
+                    </h2>
+
+                </div>
+
+
+                <div class="location-details">
+
+                    <p>
+                        24, Palace Road<br>
+                        Indiranagar<br>
+                        Bengaluru, Karnataka
+                    </p>
+
+                    <p>
+                        Tuesday — Sunday<br>
+                        12:00 PM — 11:00 PM
+                    </p>
+
+                    <a href="mailto:hello@saffronandsmoke.com">
+                        hello@saffronandsmoke.com
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="site-footer">
+
+        <div class="container footer-inner">
+
+            <div class="footer-brand">
+
+                <span class="brand-mark">
+                    S&amp;S
+                </span>
+
+                <div>
+                    <strong>Saffron &amp; Smoke</strong>
+                    <span>Contemporary Rajasthani Kitchen</span>
+                </div>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="#story">Our Story</a>
+                <a href="#menu">Menu</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#reservation">Reservations</a>
+
+            </div>
+
+
+            <p class="footer-copy">
+                © 2026 Saffron &amp; Smoke.
+                Crafted with warmth in Bengaluru.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
